@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import { shortenAddress } from '../utils/shortenAddress'
 import { useFetch } from '../hooks/useFetch'
 

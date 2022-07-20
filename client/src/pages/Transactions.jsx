@@ -1,4 +1,4 @@
-import React, {useContext} from 'react'
+import {useContext} from 'react'
 import { TransactionContext } from '../context/TransactionContext'
 import dummyData from '../utils/dummyData'
 import { TransactionCard } from '../components/TransactionCard'
