@@ -1,8 +1,7 @@
 import {useContext} from 'react'
 import { TransactionContext } from '../context/TransactionContext'
-import dummyData from '../utils/dummyData'
+// import dummyData from '../utils/dummyData'
 import { TransactionCard } from '../components/TransactionCard'
-import { shortenAddress } from '../utils/shortenAddress'
 
 const Transactions = () => {
 	const {currentAccount, transactions} = useContext(TransactionContext)

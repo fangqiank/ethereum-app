@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, createContext } from 'react'
 import { ethers } from 'ethers'
 import { toast } from 'react-toastify'
 
 import { contractABI, contractAddress } from '../utils/constants'
 
-export const TransactionContext = React.createContext()
+export const TransactionContext = createContext()
 
 const { ethereum } = window
 
